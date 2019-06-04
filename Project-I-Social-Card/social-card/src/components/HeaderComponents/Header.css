@@ -49,8 +49,9 @@ table {
 /* All styles for your header Components live here */
 .header-container{
   display: flex;
-  flex-direction: row;
-  width: 590px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  max-width:960px;
 	height: 100px;
 }
 
@@ -79,11 +80,18 @@ table {
 	opacity: .7;
 }
 
-.img-size{
-  height: 72.5px;
-  width: 67.5px;
+.image-thumbnail {
+	width: 10%;
 }
 
 .header-content{
 	padding: 10px;
+}
+p {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:inherit;
+
+	
 }
