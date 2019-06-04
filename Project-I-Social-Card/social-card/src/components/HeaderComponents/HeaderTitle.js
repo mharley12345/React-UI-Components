@@ -2,14 +2,15 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderTitle = () => {
-    return (
+const HeaderTitle = () =>{
+  return (
+    <div className="header-title">
+      <span>Lambda School</span>
+      <span>@LambdaSchool</span>
+      <span>28 nov</span>
+    </div>
+  );
+}
 
-    <div className='header'>
-    <h1 className='lambda'>Lambda School </h1>
-    <div className='dateline'> @LambdaSchool • 26 jan</div>
-    </div>)
-};
-
-export default HeaderTitle;   
+export default HeaderTitle;
                                      
