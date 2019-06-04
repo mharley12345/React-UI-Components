@@ -53,6 +53,7 @@ table {
   flex-wrap: wrap;
   max-width:960px;
 	height: 100px;
+ margin-right: 360px;
 }
 
 .header-title{
