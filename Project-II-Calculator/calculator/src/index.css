@@ -1,5 +1,35 @@
-body {
-  margin: 0;
-  padding: 0;
+
+
+body {  
+
   font-family: sans-serif;
+ 
+
+
+}
+.calculator {
+  max-width: 600px;
+  max-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  
+
+}
+  
+.calculator #middle {
+  
+      width: 100%;
+      height: auto; 
+      display: flex;
+      flex-wrap: nowrap;
+ }
+  
+#top {
+  height: 125px;
+  width:  100%;
+  background-color: black;
+  color: white;
+  display: block;
 }
