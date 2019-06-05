@@ -1,16 +1,35 @@
-    
-* {
-  box-sizing: border-box;
-}
+
 
 body {  
-  padding: 0;
-  font-family: sans-serif;
-}
 
-#root { 
-  margin: 0 auto;
-  max-width: 455px;
-  height: 600px;
-  border: 2px solid gray;
+  font-family: sans-serif;
+ 
+
+
+}
+.calculator {
+  max-width: 600px;
+  max-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+
+  
+
+}
+  
+.calculator #middle {
+  
+      width: 100%;
+      height: auto; 
+      display: flex;
+      flex-wrap: nowrap;
+ }
+  
+#top {
+  height: 125px;
+  width:  100%;
+  background-color: black;
+  color: white;
+  display: block;
 }

@@ -1,3 +1,4 @@
+    
 import React from 'react';
 import './Button.css';
 import ActionButton from './ActionButton';
@@ -11,7 +12,6 @@ const ActionKeys = () => {
             <ActionButton buttonStyle={'action'} text={'+'}/>               
             <ActionButton buttonStyle={'action'} text={'='}/>
         </div>
-    )
-}
+    )}
 
 export default ActionKeys;
