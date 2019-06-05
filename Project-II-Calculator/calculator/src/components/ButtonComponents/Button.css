@@ -13,7 +13,7 @@
     border-top: 2px solid gray;
     border-right: 2px solid gray;
     height: 95px;
-    width: 33%;
+    width: 33.33%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -39,6 +39,7 @@
     background-color: maroon;
     border: 1px solid gray;
     color: white;
+    
     display: flex;
     justify-content: center;
     align-items: rightr;
