@@ -1,13 +1,16 @@
-    
-import React from 'react';
+
+import React, {Component}from 'react';
 import './Display.css';
 
-const Display = (props) => {
+class Display extends Component {
+  render(){
+    let {result} = this.props;
     return (
-        <div className='display'>
-            0
+        <div className='Display'>
+            <p>{result}</p>
         </div>
-    );
+    )
+    ;
 }
-
+}
 export default Display;
